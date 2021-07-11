@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 75vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.status{
+    display: block;
+    background-color: #ec574ccb;
+    width: 81%;
+    height:5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.8rem;
+    font-family: 'Nunito Sans', sans-serif;;
+    font-weight: bold;
+}
+.booked,.remaining{
+    padding:20px;
+}
+.seats-container{
+    width: 90%;
+    height:60vh;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 7px;
+}
+.seats{
+    width: 15%;
+    height: 10vh;
+    background-color: #eeb6b2;
+    outline : 1.3px solid #330c0a
+}
+.seats:hover{
+    opacity: 0.75;
+}
+.seat-booked{
+    background-color: #e6ccca9a;
+}
